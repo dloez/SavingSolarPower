@@ -1,8 +1,8 @@
 # SavingSolarPower - SpaceEngineers Script
-This script allows you to show teh average of your solar panels, your current solar panel output and see how much electricity storage your base has.
+This script allows you to show the average of your solar panels power produce, your current solar panel output and see how much electricity storage your base has.
 # How to use it?
 What you need:
-  1. Create a group with all ut batteries called "SavingSolarPower".
+  1. Create a group with all your batteries called "SavingSolarPower".
   2. Place a LCD panel and call it "SavingSolarPower".
   3. Programmable block + Timer block to repeat it as fast as you want (1s recommended).
   4. Tons of Solar Panels.
