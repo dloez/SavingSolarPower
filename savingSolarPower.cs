@@ -31,12 +31,12 @@ namespace IngameScript {
 
         public Program() {
             //fill batteries list
-            GridTerminalSystem.GetBlockGroupWithName("Battery - Base").GetBlocks(blocks);
+            GridTerminalSystem.GetBlockGroupWithName("SavingSolarPower").GetBlocks(blocks);
             foreach(IMyTerminalBlock block in blocks) {
                 batteries.Add(block as IMyBatteryBlock);
             }
 
-            lcd = (IMyTextSurface)GridTerminalSystem.GetBlockWithName("lcd");
+            lcd = (IMyTextSurface)GridTerminalSystem.GetBlockWithName("SavingSolarPower");
 
             //initial configuration of lcd panel
             lcd.ContentType = ContentType.TEXT_AND_IMAGE;
